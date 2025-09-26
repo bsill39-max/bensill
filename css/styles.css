@@ -48,11 +48,12 @@ nav a:hover {
 }
 
 .gallery img {
-  width: 100%;
-  max-width: 400px;
+  max-height: 300px;   /* limits height */
+  width: auto;         /* width adjusts to keep aspect ratio */
   border-radius: 5px;
-  transition: transform 0.3s;
 }
+
+
 
 .gallery img:hover {
   transform: scale(1.05);
